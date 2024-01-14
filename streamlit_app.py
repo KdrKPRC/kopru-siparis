@@ -7,7 +7,7 @@ import time
 tab11, tab22 = st.tabs(["Sipariş", "SİL"]      )
 with tab11:
         st.title ("Sipariş Kaydetme Ekranı")
-        st.label("DİKKAT SİPARİŞLERİ YAZDIRDIĞINDAN EMİN OL")
+        st.text("DİKKAT SİPARİŞLERİ YAZDIRDIĞINDAN EMİN OL")
         
         
         
