@@ -301,8 +301,7 @@ with tab11:
 with tab22: 
     st.title ("Sipariş Silme Ekranı")
     st.text("DİKKAT SİPARİŞLERİ YAZDIRDIĞINDAN EMİN OL")
-    st.text("Daha güzel Şeyler eklicem ama motivasyonum yok , yemek olur, tatlı olur , 
-             \nne biliyim birşey olur , gelmiyor hiç")    
+    st.text("Daha güzel Şeyler eklicem ama motivasyonum yok , yemek olur, tatlı olur , \nne biliyim birşey olur , gelmiyor hiç")    
     if st.button("Hepsini Sil"):
                             
             Hangi_veri.drop(Hangi_veri.index, inplace=True)
