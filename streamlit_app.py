@@ -119,11 +119,13 @@ with tab11:
                             if il not in iller:
                                     # Eğer şehir listede yoksa, 3. ve 4. satırları değiştir
                                   ilce, il = il, ilce
-                        
-                        
+                            
+                            
+                            ilce_il = lines[2]
                             if il not in iller:
-                                 st.warning('İL DOĞRU DEĞİL KONTROL ET', icon="🚨" )       
-                                 st.stop()
+                               st.warning('İL DOĞRU DEĞİL KONTROL ET', icon="🚨" )  
+                               st.warning("il ilçede bu yazıyor " + ilce_il)     
+                               st.stop()
                                      
         
                 if dugme:
