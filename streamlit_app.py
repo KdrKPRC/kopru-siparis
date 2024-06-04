@@ -40,7 +40,7 @@ with tab11:
         Hangi_veri=""
         if kargo_tip=="ARAS KARGO":
             Hangi_veri=veriler_data
-            sube_kodu="SUL"
+            sube_kodu="SLL"
             hangi_sube="aras_kargo"
         else:
             Hangi_veri=veriler_data2
@@ -69,7 +69,7 @@ with tab11:
                 sube_kodu =""
                 if kargo_tip == "ARAS KARGO":
                     
-                    sube_kodu ="SUL"
+                    sube_kodu ="SLL"
                 else:
                    
                     sube_kodu ="155"      
